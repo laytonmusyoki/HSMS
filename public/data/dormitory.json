@@ -1,0 +1,19 @@
+{
+  "dormitories": [
+    { "name": "Mulei Eastern Wing" },
+    { "name": "Mulei Center Wing" },
+    { "name": "Mulei Western Wing" },
+    { "name": "Mutala Eastern Wing" },
+    { "name": "Mutala Center Wing" },
+    { "name": "Mutala Western Wing" },
+    { "name": "Mbate Eastern Wing" },
+    { "name": "Mbate Center Wing" },
+    { "name": "Mbate Western Wing" },
+    { "name": "Munguti Eastern Wing" },
+    { "name": "Munguti Center Wing" },
+    { "name": "Munguti Western Wing" },
+    { "name": "Musya Eastern Wing" },
+    { "name": "Musya Center Wing" },
+    { "name": "Musya Western Wing" }
+  ]
+}

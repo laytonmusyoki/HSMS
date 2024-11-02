@@ -1,0 +1,65 @@
+{
+    "subjects": [
+      {
+        "id": 1,
+        "name": "Mathematics"
+      },
+      {
+        "id": 2,
+        "name": "English"
+      },
+      {
+        "id": 3,
+        "name": "Kiswahili"
+      },
+      {
+        "id": 4,
+        "name": "Physics"
+      },
+      {
+        "id": 5,
+        "name": "Chemistry"
+      },
+      {
+        "id": 6,
+        "name": "Biology"
+      },
+      {
+        "id": 7,
+        "name": "Agriculture"
+      },
+      {
+        "id": 8,
+        "name": "French"
+      },
+      {
+        "id": 9,
+        "name": "German"
+      },
+      {
+        "id": 10,
+        "name": "Computer"
+      },
+      {
+        "id": 11,
+        "name": "Business"
+      },
+      {
+        "id": 12,
+        "name": "History"
+      },
+      {
+        "id": 13,
+        "name": "Geography"
+      },
+      {
+        "id": 14,
+        "name": "CRE"
+      },
+      {
+        "id": 15,
+        "name": "Home Science"
+      }
+    ]
+  }
+  

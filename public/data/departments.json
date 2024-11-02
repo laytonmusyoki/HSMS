@@ -1,0 +1,25 @@
+{
+    "departments": [
+      {
+        "name": "Languages",
+        "id": 1
+      },
+      {
+        "name": "Mathematics",
+        "id": 2
+      },
+      {
+        "name": "Sciences",
+        "id": 3
+      },
+      {
+        "name": "Humanities",
+        "id": 4
+      },
+      {
+        "name": "Technical",
+        "id": 5
+      }
+    ]
+  }
+  
