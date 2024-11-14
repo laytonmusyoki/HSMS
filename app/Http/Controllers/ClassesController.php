@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Classes;
+use App\Models\Students;
 use App\Models\Subjects;
 use App\Models\TeacherAssigning;
 use App\Models\Teachers;
@@ -169,6 +170,26 @@ class ClassesController extends Controller
             'name'=>['Layton','Matheka','Musyoki','Kalistar','Mathesh'],
         ];
         return view('admin.classes.myclasses',compact('classes','students'));
+    }
+
+    public function stream(){
+        $user=auth()->user()->name;
+        $is_classTeacher=Classes::where('class_teacher', $user)->first();
+        if($is_classTeacher){
+            $teacher_assignments=TeacherAssigning::where('class_id', $is_classTeacher->id)->get();
+            return view('admin.classes.stream',compact('teacher_assignments','is_classTeacher'));
+        }
+        return redirect()->back()->with('error','You are not a class teacher');
+    }
+
+    public function myStudents(){
+        $user=auth()->user()->name;
+        $is_classTeacher=Classes::where('class_teacher', $user)->first();
+        if($is_classTeacher){
+            $students=Students::where('class_id', $is_classTeacher->id)->get();
+            return view('admin.classes.myStudents',compact('is_classTeacher','students'));
+        }
+        return redirect()->back()->with('error','You are not a class teacher');
     }
     
 }

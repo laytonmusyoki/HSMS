@@ -40,7 +40,7 @@
                     @foreach($classes as $class)
                     <tr>
                         <td>{{ $class->class }}</td>
-                        <td>{{ $class->stream }}</td>
+                        <td><a href="">{{ $class->stream }}</a></td>
                         <td>{{ $class->class_teacher ?? 'N/A' }}</td>
                         <td class="text-center">
                             <div class="dropdown">

@@ -24,6 +24,14 @@
         </a>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-12">
+        <a href="#classteachers" id="btn-class-teachers" class="btn custom-widget-btn" onclick="showSidebar('sidebar-class-teachers')">
+            <div class="icon-container">
+                <img src="{{ asset('images/widgets/teacher.png') }}" alt="teachers" />
+            </div>
+            <span>Class Teachers</span>
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12">
         <a href="#timetable" id="btn-timetable" class="btn custom-widget-btn" onclick="showSidebar('sidebar-timetable')">
             <div class="icon-container">
                 <img src="{{ asset('images/widgets/timetable.png') }}" alt="timetable" />

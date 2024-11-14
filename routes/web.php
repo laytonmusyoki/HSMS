@@ -42,6 +42,8 @@ Route::middleware(['admin'])->group(function () {
     Route::get('/admin/subjects',[ClassesController::class,'classSubjects'])->name('admin.subjects');
     Route::post('/admin/assign/teachers',[ClassesController::class,'assignTeachers'])->name('admin.assignTeachers');
     Route::get('/admin/myClasses',[ClassesController::class,'myClasses'])->name('admin.myClasses');
+    Route::get('/admin/stream',[ClassesController::class,'stream'])->name('admin.stream');
+    Route::get('/admin/myStudents',[ClassesController::class,'myStudents'])->name('admin.myStudents');
 
     //teachers
     Route::get('/admin/teachers',[TeachersController::class,'index'])->name('admin.teachers');

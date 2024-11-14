@@ -40,9 +40,7 @@
             </div>
             <div class="menu-title">Classes</div>
           </a>
-          <ul>
-            <li><a href="{{ route('admin.classes') }}"><i class="material-icons-outlined">arrow_right</i>Manage classes</a>
-            </li>       
+          <ul>      
             <li><a href="{{ route('admin.subjects') }}"><i class="material-icons-outlined">arrow_right</i>Manage Class Subjects</a>
             </li>
             <li><a href="{{ route('admin.myClasses') }}"><i class="material-icons-outlined">arrow_right</i>My Classes</a>
@@ -61,6 +59,21 @@
             <li><a href="{{ route('admin.teacher.departments') }}"><i class="material-icons-outlined">arrow_right</i>Departments</a>
             </li>
             <li><a href="component-cards-contact.html"><i class="material-icons-outlined">arrow_right</i>Contacts</a>
+            </li>
+          </ul>
+        </li>
+        <li class="sidebar-section" id="sidebar-class-teachers" style="display: none">
+          <a href="javascript:;" class="has-arrow">
+            <div class="parent-icon"><i class="material-icons-outlined">class</i>
+            </div>
+            <div class="menu-title">Class Teachers</div>
+          </a>
+          <ul>
+            <li><a href="{{ route('admin.classes') }}"><i class="material-icons-outlined">arrow_right</i>teachers</a>
+            </li>       
+            <li><a href="{{ route('admin.stream') }}"><i class="material-icons-outlined">arrow_right</i>My class</a>
+            </li>
+            <li><a href="{{ route('admin.myStudents') }}"><i class="material-icons-outlined">arrow_right</i>My Students</a>
             </li>
           </ul>
         </li>

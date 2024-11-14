@@ -28,4 +28,8 @@ class Students extends Model
     public function classes(){
         return $this->belongsTo(Classes::class,'id');
     }
+
+    public function fullName(){
+        return $this->first_name . " " . $this->last_name ." " . $this->parent_name;
+    }
 }
